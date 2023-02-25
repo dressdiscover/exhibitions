@@ -1,0 +1,6 @@
+@prefix configuration: <http://www.paradicms.org/ns/configuration#> .
+
+[] a configuration:WorkSearchAppConfiguration;
+  configuration:siteTitle "DressDiscover Exhibitions" ;
+  configuration:stylesheetHref <https://minorgordon.net/minorgordon.net.css> 
+  .
