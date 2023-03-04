@@ -1,7 +1,6 @@
 @prefix : <http://www.paradicms.org/ns/configuration#> .
 
 [] a :AppConfiguration;
-  :basePath "/exhibitions" ;
   :stylesheet <https://minorgordon.net/minorgordon.net.css> ;
   :title "DressDiscover Exhibitions"
   .
