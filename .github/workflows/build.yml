@@ -15,8 +15,6 @@ jobs:
         env:
           NEXT_BASE_PATH: ${{ steps.configure_pages.outputs.base_path }}
         with:
-          app: work-search
-          app_configuration: ./app-configuration.ttl
           spreadsheet: 1j2oaMvMxY4pnXO-sEH_fky2R2gm6TQeIev_Q8rVOD4M
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
